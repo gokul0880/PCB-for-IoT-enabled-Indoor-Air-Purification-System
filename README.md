@@ -1,45 +1,46 @@
-PCB for IoT-enabled Indoor Air Purification System
-This repository contains the PCB design files for an IoT-enabled Indoor Air Purification System. The system is designed to monitor and improve indoor air quality by integrating various sensors and actuators. The PCB facilitates the seamless connection of components such as air quality sensors, microcontrollers, and purification units.​
+# PCB for IoT-enabled Indoor Air Purification System
 
-Features
-Air Quality Monitoring: Integrates sensors to detect pollutants like PM2.5, CO₂, and VOCs.
+This repository contains the PCB design files for an IoT-enabled Indoor Air Purification System. The system is designed to monitor and improve indoor air quality by integrating various sensors and actuators. The PCB facilitates the seamless connection of components such as air quality sensors, microcontrollers, and purification units.
 
-IoT Connectivity: Supports Wi-Fi/Bluetooth modules for real-time data transmission.
+## Features
 
-Automated Control: Enables automatic activation of purification mechanisms based on sensor readings.
+- **Air Quality Monitoring**: Integrates sensors to detect pollutants like PM2.5, CO₂, and VOCs.
+- **IoT Connectivity**: Supports Wi-Fi/Bluetooth modules for real-time data transmission.
+- **Automated Control**: Enables automatic activation of purification mechanisms based on sensor readings.
+- **Compact Design**: Optimized PCB layout for space-efficient deployment.
 
-Compact Design: Optimized PCB layout for space-efficient deployment.​
+## Repository Contents
 
-Repository Contents
-schematics/ – Circuit diagrams in PDF and source formats.
+- `schematics/` – Circuit diagrams in PDF and source formats.
+- `pcb_layout/` – PCB design files compatible with [KiCad](https://kicad.org/) or [Eagle](https://www.autodesk.com/products/eagle/overview).
+- `bom/` – Bill of Materials listing all components with specifications.
+- `firmware/` – Sample code for microcontroller integration (if applicable).
+- `docs/` – Additional documentation, including setup guides and user manuals.
 
-pcb_layout/ – PCB design files compatible with KiCad or Eagle.
+## Getting Started
 
-bom/ – Bill of Materials listing all components with specifications.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/gokul0880/PCB-for-IoT-enabled-Indoor-Air-Purification-System.git
+   ```
 
-firmware/ – Sample code for microcontroller integration (if applicable).
+2. **Open Design Files**:
+   Use [KiCad](https://kicad.org/) or [Eagle](https://www.autodesk.com/products/eagle/overview) to open and modify the PCB and schematic files.
 
-docs/ – Additional documentation, including setup guides and user manuals.​
+3. **Review BOM**:
+   Check the `bom/` directory for a comprehensive list of required components.
 
-Getting Started
-Clone the Repository:
+4. **Firmware Upload**:
+   If firmware is provided, follow the instructions in the `firmware/` directory to upload code to the microcontroller.
 
-bash
-Copy
-Edit
-git clone https://github.com/gokul0880/PCB-for-IoT-enabled-Indoor-Air-Purification-System.git
-Open Design Files: Use KiCad or Eagle to open and modify the PCB and schematic files.
+## Contributing
 
-Review BOM: Check the bom/ directory for a comprehensive list of required components.
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-Firmware Upload: If firmware is provided, follow the instructions in the firmware/ directory to upload code to the microcontroller.
+## License
 
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.​
+This project is licensed under the [MIT License](LICENSE).
 
-License
-This project is licensed under the MIT License.​
+## Contact
 
-Contact
-For questions or collaborations, please contact Gokul.​
-
+For questions or collaborations, please contact [Gokul](mailto:gokul@example.com).
